@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-        <p>This is my new website which is hosted on GitHub Pages!</p>
-    </main>
-  </body>
+<html lang="pt">
+    <head>
+        <title>MAGIC</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
 </html>
+<body background="mtg_geral.png">
+    <nav style="box-shadow: 10px 5px 5px grey">
+      <ul id="Menu">
+        <li><a href="./Galeria.html">Home</a></li>
+        <li><a href="#">Packs</a></li>
+        <li><a href="#">TEST 1</a></li>
+        <li><a href="#"><input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category"></li>
+      </ul></nav>
+    
+         <ul id="myMenu">
+           <li>
+                <a href="Packs/Modern_Horizons_2/Unholy_Heat/Unholy_Heat.html">
+                    <img src="Packs/Modern_Horizons_2/Unholy_Heat/mh2-145-unholy-heat.jpg" alt="Unholy Heat" style="width: 200px;height:250px;">
+                </a>
+            </li>
+         </ul>
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("mySearch");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myMenu");
+          li = ul.getElementsByTagName("li");
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+
+</body>
