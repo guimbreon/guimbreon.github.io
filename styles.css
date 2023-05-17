@@ -1,7 +1,32 @@
 .star {
-    cursor: pointer;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
 }
 
-.star:hover {
-    font-weight: bold;
+.star.blinking {
+    animation: blink-animation 2s infinite;
+}
+
+@keyframes blink-animation {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+.star-name {
+    position: absolute;
+    top: -20px;
+    color: white;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.star:hover .star-name {
+    visibility: visible;
 }

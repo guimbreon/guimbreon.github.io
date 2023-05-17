@@ -15,17 +15,24 @@ function createStar() {
     star.style.top = `${Math.random() * 100}%`;
     star.style.left = `${Math.random() * 100}%`;
     
+    const starName = document.createElement("span");
+    starName.className = "star-name";
+
     star.addEventListener("mouseover", () => {
-        star.style.backgroundColor = "yellow";
-        star.innerText = starNames[Math.floor(Math.random() * starNames.length)];
+        starName.innerText = starNames[Math.floor(Math.random() * starNames.length)];
     });
 
     star.addEventListener("mouseout", () => {
-        star.style.backgroundColor = "white";
-        star.innerText = "";
+        starName.innerText = "";
     });
 
+    star.appendChild(starName);
     document.getElementById("stars-container").appendChild(star);
+
+    // Random blinking delay for each star
+    const blinkingDelay = Math.random() * 3000 + 1000;
+    star.style.animationDelay = `${blinkingDelay}ms`;
+    star.classList.add("blinking");
 }
 
 // Create 100 stars

@@ -1,14 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>MAGIC</title>
-        <link rel="stylesheet" href="style.css"> 
-  </head>
-  <head>
-    <title>Star Names</title>
+<html>
+<head>
+    <title>Blinking Stars</title>
     <style>
         body {
             background-color: black;
@@ -22,6 +15,28 @@
             height: 2px;
             background-color: white;
             border-radius: 50%;
+            animation: blink-animation 1s infinite;
+        }
+
+        @keyframes blink-animation {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+
+        .star-name {
+            position: absolute;
+            top: -20px;
+            color: white;
+            font-size: 12px;
+            visibility: hidden;
+        }
+
+        .star:hover .star-name {
+            visibility: visible;
         }
     </style>
 </head>
