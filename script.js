@@ -30,7 +30,7 @@ function createStar() {
     document.getElementById("stars-container").appendChild(star);
 
     // Random blinking delay for each star
-    const blinkingDelay = Math.random() * 3000 + 1000;
+    const blinkingDelay = Math.random() * 6000 + 1000;
     star.style.animationDelay = `${blinkingDelay}ms`;
     star.classList.add("blinking");
 }
