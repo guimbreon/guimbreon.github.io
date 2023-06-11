@@ -1,48 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Blinking Stars</title>
-    <style>
-        body {
-            background-color: black;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .star {
-            position: absolute;
-            width: 2px;
-            height: 2px;
-            background-color: white;
-            border-radius: 50%;
-            animation: blink-animation 1s infinite;
-        }
-
-        @keyframes blink-animation {
-            0%, 50%, 100% {
-                opacity: 1;
-            }
-            25%, 75% {
-                opacity: 0;
-            }
-        }
-
-        .star-name {
-            position: absolute;
-            top: -20px;
-            color: white;
-            font-size: 12px;
-            visibility: hidden;
-        }
-
-        .star:hover .star-name {
-            visibility: visible;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="stars-container"></div>
-    
-    <script src="script.js"></script>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Sobre.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="container">
+        <h1>Bem-vindo ao Meu Portfólio!</h1>
+        <p>Aqui você encontrará meus projetos mais recentes.</p>
+      </div>
+    </section>
+    <section id="posts">
+      <div class="container">
+        <h2>Últimos Projetos</h2>
+        <div class="post">
+          <div class="post-image">
+            <img src="project1.jpeg" alt="Projeto 1">
+          </div>
+          <div class="post-content">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+            <a href="project1.html">Leia mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>

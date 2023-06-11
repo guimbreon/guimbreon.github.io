@@ -1,0 +1,119 @@
+/* Estilos gerais */
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #152c55; /* Cor de fundo desejada */
+}
+
+
+/* Estilos do cabeçalho e navegação */
+header {
+  background-color: #002147;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos das seções */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#home {
+  background-color: #0a1c3a;
+}
+
+#home h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#posts {
+  background-color: #0a1c3a;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #152c55;
+}
+
+.post-image {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.post-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.post-content {
+  flex: 1;
+  text-align: left;
+}
+
+.post-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.post-content p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.post-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos do footer */
+footer {
+  background-color: #002147;
+  color: #fff;
+  padding: 20px;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
