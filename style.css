@@ -1,5 +1,4 @@
-/* Estilos gerais */
-/* Estilos gerais */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -7,15 +6,32 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #152c55; /* Cor de fundo desejada */
+  background-color: #152c55; /* Desired background color */
 }
 
-
-/* Estilos do cabeçalho e navegação */
+/* Header Styles */
 header {
   background-color: #002147;
-  padding: 20px;
   color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 nav ul {
@@ -34,9 +50,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Estilos das seções */
+/* Section Styles */
 section {
-  padding: 50px;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -50,8 +66,8 @@ section {
 }
 
 #home h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   color: #fff;
 }
 
@@ -62,8 +78,8 @@ section {
 .post {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 1rem;
+  padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: #152c55;
@@ -72,7 +88,7 @@ section {
 .post-image {
   flex: 1;
   max-width: 300px;
-  margin-right: 20px;
+  margin-right: 1rem;
 }
 
 .post-image img {
@@ -86,13 +102,13 @@ section {
 }
 
 .post-content h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
   color: #fff;
 }
 
 .post-content p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #ccc;
 }
 
@@ -105,7 +121,7 @@ section {
   text-decoration: underline;
 }
 
-/* Estilos do footer */
+/* Footer Styles */
 footer {
   background-color: #002147;
   color: #fff;
@@ -117,3 +133,4 @@ footer p {
   margin: 0;
   text-align: center;
 }
+
