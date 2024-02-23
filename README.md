@@ -1,3 +1,7 @@
 # Guimbreon personal website
 
-with some projects
+    This is my portfolio website.
+
+## Programs stated:
+
+- [birthPlan](https://github.com/guimbreon/ProgI_LTI)
