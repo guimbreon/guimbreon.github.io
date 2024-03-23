@@ -4,6 +4,24 @@ body, h1, h2, h3, p {
   padding: 0;
 }
 
+h2 a {
+  text-decoration: none;
+  color: black; /* Adjust the color to your preference */
+}
+
+h2 a:hover {
+  text-decoration: underline;
+  color: blue; /* Adjust the hover color to your preference */
+}
+p a {
+  text-decoration: none;
+  color: #5D5E67; /* Adjust the color to your preference */
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: blue; /* Adjust the hover color to your preference */
+}
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -15,10 +33,11 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
+
 
 /* Header Styles */
 header {
@@ -48,11 +67,16 @@ header a {
   font-weight: bold;
 }
 
+
 /* Main Section Styles */
+
 section {
   padding: 40px 0;
 }
 
+#post{
+  padding: 80px 0;
+}
 section h2 {
   font-size: 2rem;
 }
@@ -67,6 +91,10 @@ section p {
   font-size: 1rem;
   color: #5D5E67;
   margin-top: 10px;
+}
+img {
+  max-width: 50%; /* Set maximum width to 100% of its container */
+  height: auto;    /* Maintain aspect ratio */
 }
 
 /* Skill Badges */
@@ -86,7 +114,7 @@ ul {
 }
 
 ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 ul li a {
@@ -118,3 +146,4 @@ footer {
   text-decoration: none;
   color: #3B3C41; /* Change the color to your desired color */
 }
+
