@@ -1,13 +1,12 @@
-
 /* Header Styles */
 header {
   background-color: #002147;
   color: #fff;
-  padding: 20px 0;
   text-align: center;
+  padding: 13px;
   position: fixed;
-  width: 100%; /* Adicionando esta linha */
-  top: 0; /* Adicionando esta linha para garantir que o cabeçalho esteja no topo */
+  width: 100%;
+  top: 0; 
 }
 
 header ul {
@@ -27,6 +26,11 @@ header a {
   font-weight: bold;
 }
 
+p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -42,16 +46,32 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* Footer Styles */
+
+
+/* Estilos para o rodapé */
 footer {
   background-color: #002147;
-  color: #fff;
-  padding: 20px;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
   margin-top: auto;
 }
-
-footer p {
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+/* Estilos para o conteúdo */
+.content {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  min-height: calc(100vh - 170px); /* Ajuste de altura para o rodapé */
+}

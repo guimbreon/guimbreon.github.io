@@ -1,0 +1,150 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #5484d6; /* Desired background color */
+}
+h2 a {
+  text-decoration: none;
+  color: black; /* Adjust the color to your preference */
+}
+
+h2 a:hover {
+  text-decoration: underline;
+  color: blue; /* Adjust the hover color to your preference */
+}
+p a {
+  text-decoration: none;
+  color: #5D5E67; /* Adjust the color to your preference */
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: blue; /* Adjust the hover color to your preference */
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Header Styles */
+header {
+  background-color: #002147;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%; /* Adicionando esta linha */
+  top: 0; /* Adicionando esta linha para garantir que o cabeçalho esteja no topo */
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/* Main Section Styles */
+
+section {
+  padding: 40px 0;
+}
+
+#post{
+  padding: 80px 0;
+}
+section h2 {
+  font-size: 2rem;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+section p {
+  font-size: 1rem;
+  color: #5D5E67;
+  margin-top: 10px;
+}
+img {
+  max-width: 50%; /* Set maximum width to 100% of its container */
+  height: auto;    /* Maintain aspect ratio */
+}
+
+/* Skill Badges */
+.skill-badge {
+  margin: 10px;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Projects Section Styles */
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #BCCBDD;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #002147;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto; /* This will push the footer to the bottom */
+}
+
+/* Projects Section Styles */
+.projects h2 {
+  font-size: 2rem;
+  color: #333; /* Change the color to your desired color */
+}
+
+.projects ul li {
+  margin-bottom: 10px;
+  color: #5D5E67; /* Change the color to your desired color */
+}
+
+.projects ul li a {
+  text-decoration: none;
+  color: #3B3C41; /* Change the color to your desired color */
+}
+

@@ -3,19 +3,37 @@ body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
-
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #8BA6C7; /* Background color for the entire page */
-  line-height: 1.6;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+  min-height: 100vh;
+  background-color: #5484d6; /* Desired background color */
+}
+
+h2 a {
+  text-decoration: none;
+  color: black; /* Adjust the color to your preference */
+}
+
+h2 a:hover {
+  text-decoration: underline;
+  color: blue; /* Adjust the hover color to your preference */
+}
+p a {
+  text-decoration: none;
+  color: #5D5E67; /* Adjust the color to your preference */
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: blue; /* Adjust the hover color to your preference */
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -26,9 +44,6 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  position: fixed;
-  width: 100%; /* Adicionando esta linha */
-  top: 0; /* Adicionando esta linha para garantir que o cabeçalho esteja no topo */
 }
 
 header ul {
@@ -65,8 +80,12 @@ section h3 {
 
 section p {
   font-size: 1rem;
-  color: #5D5E67;
+  color: #3d3e49;
   margin-top: 10px;
+}
+img {
+  max-width: 50%; /* Set maximum width to 100% of its container */
+  height: auto;    /* Maintain aspect ratio */
 }
 
 /* Skill Badges */
@@ -86,7 +105,7 @@ ul {
 }
 
 ul li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 ul li a {
@@ -118,3 +137,4 @@ footer {
   text-decoration: none;
   color: #3B3C41; /* Change the color to your desired color */
 }
+
