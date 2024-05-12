@@ -1,5 +1,108 @@
-#teste{
+.inicio{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+  padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+  color: antiquewhite;
+  text-align: center;
+}
+
+header li{
+  color: #a0c2e4;
+}
+
+
+
+/* POSTS */
+.content{
+  padding-top: 20px;
+  padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+  padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+  padding-bottom: 25px;
+  color:antiquewhite
+}
+
+
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(147, 57, 251, 0.3);
   background-color: #0c0c0c;
-  color:antiquewhite;
-  padding: 50px;
+}
+
+.post-image {
+  flex: 1;
+  max-width: 300px; 
+  margin-right: 1rem;
+}
+
+.post-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.post-content {
+  flex: 1;
+  text-align: left;
+}
+
+.post-content h2 {
+  margin-bottom: 0.5rem;
+  color: #561a9b;
+}
+
+.post-content p {
+  color: antiquewhite;
+}
+
+.post-content a {
+  color: #561a9b;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+/*PROJETOS*/
+
+
+.filters{
+  padding-left: 75px;
+  padding-bottom: 25px;
+}
+
+/* Quando o mouse passa por cima do botão */
+.filters button:hover {
+  background-color: #561a9b; /* Cor verde clara */
+}
+
+/* Quando o botão está selecionado */
+.filters button.selected {
+  background-color: #561a9b; /* Cor verde clara */
+}
+
+
+/* Estilizando os botões dos filtros */
+.filters button {
+  background-color: #2a0c4b; /* Cor verde escuro */
+  color: #fff; /* Texto branco */
+}
+/* Estilizando os botões dos filtros */
+.filters button {
+  border: none;
+  padding: 10px 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave para mudança de cor */
 }

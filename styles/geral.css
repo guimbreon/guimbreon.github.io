@@ -52,8 +52,9 @@ li{
 }
 
 /* FOOTER */
-footer p, header a{
-  color: #348ddf
+footer p, header a, footer a{
+  color: #348ddf;
+  text-decoration: none;
 }
 footer{
   display: grid;
