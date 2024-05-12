@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfólio</title>
+  <link rel="stylesheet" href="../../styles/imports/projetos/birthPlanImport.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="Header/projetosMain.html">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class = "inicio" id = "dark">
+    <div id="base">
+      <h1>birthPlan</h1>
+      <p>Este projeto visa melhorar a organização e otimizar os recursos dos serviços de maternidade de um grupo de hospitais.</p>
+    </div>
+    <div id="tecUsadas">
+      <h2>Tecnologias Usadas</h2>
+      <ol>
+        <li>Python.</li>
+      </ol>
+    </div>
+    <div id="data">
+      <h2>Quando foi feito:</h2>
+      <p>Inicio: 03-2024</p>
+      <p>Fim: 04-2024</p>
+    </div>
+    <div id="encontrar">
+      <h2>Onde posso</h2>
+      <h2>econtrar o projeto?</h2>
+      <a href="https://github.com/guimbreon"><img id = "ondeEnc" src="../../imagens/github.png" alt="GitHub"></a>
+    </div>
+  </div>
+  <div class="image" id = "dark">
+    <img id = "babyFeet" src = "babyFeet.png">
+    <img id = "pregnant" src="pregnant.png">
+  </div>
+  <div class="descricao" id="light">
+    <h2>Descrição</h2>
+    <p> birthPlan é um software projetado para apoiar a equipa de enfermagem no encaminhamento de grávidas para os serviços de maternidade. Ele será utilizado pela coligação de hospitais smartH para gerir a atribuição de assistência no parto a médicos especialistas e respetivas equipas.</p>
+  
+    <h2>Como funciona?</h2>
+    <p>Recebe 3 ficheiros com informações de Entrada:</p>
+    <ol>
+      <li>Médicos;</li>
+      <li>Calendário de assistências;</li>
+      <li>Pedidos de assistências.</li>
+    </ol>
+    <p>Gera 3 ficheiros Saida:</p>
+    <ol>
+      <li>Lista atualizada dos médicos;</li>
+      <li>Calendário de assistências atualizado.</li>
+    </ol>
+  </div>
+  <div class="image" id = "light">
+    <img id = "code1" src = "code1.png">
+    <img id = "code2" src="code2.png">
+  </div>
+  <div class="comoExec" id="dark">
+    <h1> Como se executa o programa?</h1>
+    <p>O programa deve ser executado no terminal da seguinte forma:</p>
+    <div class="terminal">
+      <p>[guimbreon@ThreatForge]:/home$ <a>python3 inputFile1.txt inputFile2.txt inputFile3.txt</a></p> 
+    </div>
+    <h2> Oque é cada inputeFile.py?</h2>
+    <ul>
+      <li>inputFile1.py: Ficheiro com a listagem dos médicos;</li>
+      <li>inputFile2.py: Ficheiro com a calendarização das assistências;</li>
+      <li>inputFile3.py: Ficheiro com a listagem dos pedidos de assistência.</li>
+    </ul>
+  </div>
+  <div class="image" id = "dark">
+    <img id = "brackets" src = "brackets.png">
+  </div>
+  <div class="module" id ="light">
+    <h1>O software é composto pelos seguintes ficheiros:</h1>
+    <h2>Objetos:</h2>
+    <ul>
+      <li>Schedule: objetos que representam os horários;</li>
+      <li>DateTime: objetos que lidam com datas e horas;</li>
+      <li>Mother: objetos que representam as mães;</li>
+      <li>Doctors: objetos que representam os médicos;</li>
+      <li>Lists: objetos para manipulação de listas;</li>
+      <li>FileHandling: objetos que lidam com operações de arquivos;</li>
+      <li>infoToFiles: escreve informações em arquivos.</li>
+    </ul>
+    <h2>Objetos:</h2>
+    <ul>
+      <li>constants: as constants necessárias para o projeto;</li>
+      <li>testing: ficheiro de testes do projeto;</li>
+      <li>refresh: ficheiro usado para executar o projeto!</li>
+    </ul>
+  <footer>
+    <div id="footerEsq">
+      <p>Info</p>
+      <p>Locais da Loja</p>
+      <p>Contactos</p>
+      <p>Batata</p>
+    </div>
+    <div id="footerDir">
+      <p>email@email.com</p>      
+      <p>Rua Batata Frita n13, Arruda dos Vinhos, Lisboa</p>      
+    </div>
+  </footer>
+</body>
+</html>

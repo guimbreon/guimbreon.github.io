@@ -1,13 +1,19 @@
+/* GENERAL */
+body{
+  margin: 0;
+  background-color: #151515;
+}
 /* Header Styles */
 header {
-  background-color: #002147;
-  color: #fff;
+  background-color: #151515;
   text-align: center;
   padding: 13px;
   position: fixed;
   width: 100%;
-  top: 0; 
+  top: 0;
+  z-index: 1000; /* Garante que o header fique por cima de tudo */
 }
+
 
 header ul {
   list-style-type: none;
@@ -22,56 +28,72 @@ header li {
 
 header a {
   text-decoration: none;
-  color: #fff;
+  color: antiquewhite;
   font-weight: bold;
 }
 
-p a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+h1 {
+  font-size: calc(20px + 6 * ((100vw - 320px) / 680));
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 10px;
+ h2 {
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  margin-left: 10px;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+p {
+  font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+  color: #7157f1
 }
 
+li{
+  font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+}
 
-/* Estilos para o rodapé */
-footer {
-  background-color: #002147;
-  color: white;
+/* FOOTER */
+footer p, header a{
+  color: #348ddf
+}
+footer{
+  display: grid;
+  grid: 1fr 1fr;
+  grid-template-columns: auto auto;
+  place-items: center;
+  background-color: #151515;
+}
+
+#footerEsq{
+  grid-column: 1;
+  padding: 8px 10px;
   text-align: center;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  margin-top: auto;
+
 }
-/* Estilos gerais */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+#footerDir{
+grid-column: 2;
+padding: 8px 10px;
+text-align: center;
+}
+
+/*image*/
+
+.image{
+  width: auto;
+  height: 30px; 
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* Vertically center the images */
+  z-index: 999; /* Certifique-se de que está acima de outros elementos */
 }
-
-/* Estilos para o conteúdo */
-.content {
-  margin-top: 25px;
-  padding: 20px;
-  text-align: center;
-  min-height: calc(100vh - 170px); /* Ajuste de altura para o rodapé */
+#dark{
+  background-color: #0c0c0c;
+}
+#light{
+  background-color: #130d1a;
+}
+.image img{
+  margin: 0;
+  height: 60px;
+  width: auto;
+  transform: translate(0%, 25%) ;
 }

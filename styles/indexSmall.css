@@ -1,0 +1,24 @@
+.ExpTec{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+#ExpTecText{
+    grid-column: 1 / 3;
+    grid-row: 1 ;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+#prog{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#bd{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+  

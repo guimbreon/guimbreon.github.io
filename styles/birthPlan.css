@@ -1,0 +1,109 @@
+.inicio{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+    padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+    color: antiquewhite;
+}
+
+#base{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#tecUsadas{
+    grid-column: 2;
+    grid-row: 2;
+    background: linear-gradient(to top, #130d1a 10%, #0c0c0c 90%);
+    box-shadow: 0 2px 4px rgba(147, 57, 251, 0.3);
+    padding: 10px;
+}
+
+#data{
+    grid-column: 3;
+    grid-row: 1;
+    background: linear-gradient(to top, #130d1a 10%, #0c0c0c 90%);
+    box-shadow: 0 2px 4px rgba(147, 57, 251, 0.3);
+    text-align: center;
+    padding: 10px;
+}
+
+#encontrar{
+    grid-column: 3;
+    grid-row: 3;
+    background: linear-gradient(to top, #130d1a 10%, #0c0c0c 90%);
+    box-shadow: 0 2px 4px rgba(147, 57, 251, 0.3);
+    padding: 10px;
+    text-align: center;
+    
+}
+#ondeEnc{
+  height: 45px;
+  width: auto;
+}
+
+.descricao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+    padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+    
+}
+
+.descricao h2{
+    color: antiquewhite;
+}
+
+.descricao li{
+    color: #d9d2ff;
+}
+
+.comoExec{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+    padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+}
+
+li{
+    color: #7157f1;
+}
+
+h1, h2{
+    color: antiquewhite;
+}
+
+.terminal{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+    padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+    background-color: black;
+}
+
+.terminal h1{
+    color:antiquewhite;
+    background-color: rgb(23, 23, 23);
+}
+.terminal p{
+    color: #96b38a;
+}
+.terminal p a{
+    color: antiquewhite;
+}
+
+.module{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+    padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+    
+}
+
+.module li{
+    padding-bottom: 5px;
+}
+

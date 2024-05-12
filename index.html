@@ -1,67 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guimbreon's Portfólio</title>
-    <link rel="stylesheet" href="styles/geral.css">
-    <link rel="stylesheet" href="styles/index.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfólio</title>
+  <link rel="stylesheet" href="styles/imports/indexImport.css">
+  <script src="script/projetosLoader.js"></script>
+  <script src="script/projetos.js"></script>
+</head>
 <body>
   <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="Header/about.html">Sobre</a></li>
-        <li><a href="Header/contact.html">Contato</a></li>
+        <li><a href="Header/projetosMain.html">Projetos</a></li>
       </ul>
     </nav>
   </header>
-  <div class="content">
-    <div class="container">
-      <h1>Bem-vindo ao Meu Portfólio!</h1>
-      <p>Aqui vais encontrar os meus projetos mais recentes.</p>
+  <div class="content" id="dark">
+      <div class="ExpTec">
+        <div id = "ExpTecText">
+          <h1>Experiência tecnológica:</h1>
+          <p>Tecnologias em que tenho experiência e já fiz algum projeto.</p>
+          <a href="https://github.com/guimbreon"><img id = "ExpTecImg" src="imagens/github.png" alt="GitHub"></a>
+        </div>
+        <div class = "borda" id = "prog">
+          <h2>Programação: </h2>
+            <ol>
+              <li>Python;</li>
+              <li>Java;</li>
+              <li>HTML, CSS e Javascript.</li>
+            </ol>
+        </div>          
+        <div class="borda" id = "bd">
+        <h2>Bases de Dados:</h2>
+          <ol>
+            <li>SQL;</li>
+            <li>Microsoft SQL Server.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="image" id = "dark">
+        <img id = "java" src="imagens/java.png">
+        <img id = "sql" src="imagens/sql.png">
+        <img id = "python" src="imagens/python.png">
+      </div>
+      <!-- Add as many content elements as needed -->
   </div>
-  
-    <div id="posts">
-      <div class="container">
-        <h2>Últimos Projetos</h2>
-        <div class="post">
-          <div class="post-image">
-            <img src="Project1/project1.jpeg" alt="Projeto 1">
-          </div>
-          <div class="post-content">
-            <h3>birthPlan</h3>
-            <p>Descrição do projeto birthPlan.</p>
-            <a href="Project1/project1.html">Leia mais</a>
-          </div>
-        </div>
-        <div class="post">
-          <div class="post-image">
-            <img src="Project2/project2.jpeg" alt="Projeto 2">
-          </div>
-          <div class="post-content">
-            <h3>Cripter</h3>
-            <p>Ferramenta que ajuda pessoas a encriptar e a desincriptar dados.</p>
-            <a href="Project2/project2.html">Leia mais</a>
-          </div>
-        </div>
+  <div class="content2" id = "light">
+    <h2>Últimos Projetos</h2>
+    <p>Os projetos aqui colocados rotacionam quando dão refresh na página!</p>
+      <div class="container" id = "here">
+        
         <!--
         <div class="post">
           <div class="post-image">
             <img src="Project1/project1.jpeg" alt="Projeto 1">
           </div>
           <div class="post-content">
-            <h3>birthPlan</h3>
+            <h2>birthPlan</h2>
             <p>Descrição do projeto birthPlan.</p>
             <a href="Project1/project1.html">Leia mais</a>
           </div>
         </div>-->
       </div>
-    </div>
   </div>
   <footer>
-    <p>&copy; 2024 Guimbreon. Todos os direitos reservados.</p>
+    <div id="footerEsq">
+      <p>Info</p>
+      <p>Locais da Loja</p>
+      <p>Contactos</p>
+      <p>Batata</p>
+    </div>
+    <div id="footerDir">
+      <p>email@email.com</p>      
+      <p>Rua Batata Frita n13, Arruda dos Vinhos, Lisboa</p>      
+    </div>
   </footer>
+  <script>mostrarProjetos(listaProjetos);</script>
 </body>
 </html>
