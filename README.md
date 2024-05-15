@@ -2,6 +2,7 @@
 
 ## Icons
 [Muhammad Ali](https://www.flaticon.com/authors/muhammad-ali)
+[Eucalyp](https://www.flaticon.com/authors/meticulous/gradient?author_id=172)
 
 
 ## Colors:
@@ -19,11 +20,3 @@ Cinzento:
 
 #151515 || rgba(21,21,21,255)
 
-
-
-## Ideias
-
-Zona de projetos do index:
-
-- Automatizar a rotação dos projetos(por ex 5 de cada vez)
-  - Fazer filtragem de projetos por área e assim.
