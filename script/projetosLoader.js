@@ -66,7 +66,7 @@ function mostrarProjetos2(projetos){
 
         h2.innerHTML = projeto.nome
         a.innerHTML = "Leia mais"
-        a.href = projeto.link
+        a.href = "../" + projeto.link
         p.innerHTML = projeto.descricao
 
         divPost.className = "post";
