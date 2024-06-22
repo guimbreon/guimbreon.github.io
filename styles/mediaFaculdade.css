@@ -56,6 +56,14 @@
 .descricao h2{
     color: antiquewhite;
 }
+.descricao h2{
+    color: antiquewhite;
+}
+.descricao img{
+    width: 14px;
+    height: auto;
+    background-color:antiquewhite
+}
 
 .descricao li{
     color: #d9d2ff;
