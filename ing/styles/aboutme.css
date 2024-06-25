@@ -1,0 +1,20 @@
+.inicio{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+  padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+  color: antiquewhite;
+  text-align: center;
+}
+
+.projeto{
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-right: calc(35px + 6 * ((100vw - 320px) / 680));;
+  padding-left: calc(35px + 6 * ((100vw - 320px) / 680));
+}
+
+.projeto h2{
+  color: antiquewhite;
+
+}

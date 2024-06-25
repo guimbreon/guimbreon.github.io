@@ -1,0 +1,4 @@
+@import url("../../geral.css");
+@import url("../../birthPlan.css");
+@import url("../../birthPlanSmall.css")
+screen and (max-width: 599px);

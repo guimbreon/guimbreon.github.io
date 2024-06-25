@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfolio</title>
+  <link rel="stylesheet" href="../../styles/imports/projetos/birthPlanImport.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../header/projetos.html">Projetos</a></li>
+      </ul>
+    </nav>
+    <div id = "idioma">
+      <a href = "../../../index.html"><img  src = "../../imagens/pt.png"></a>
+    </div>
+  </header>
+  <div class="inicio" id="dark">
+    <div id="base">
+      <h1>birthPlan</h1>
+      <p>This project aims to improve organization and optimize resources for the maternity services of a group of hospitals.</p>
+    </div>
+    <div id="tecUsadas">
+      <h2>Technologies Used</h2>
+      <ol>
+        <li>Python.</li>
+      </ol>
+    </div>
+    <div id="data">
+      <h2>When it was made:</h2>
+      <p>Start: 03-2024</p>
+      <p>End: 04-2024</p>
+    </div>
+    <div id="encontrar">
+      <h2>Where can I</h2>
+      <h2>find the project?</h2>
+      <a href="https://github.com/guimbreon/ProgI_LTI"><img id="ondeEnc" src="../../imagens/projetos/birthPlan2/github.png" alt="GitHub"></a>
+    </div>
+  </div>
+  <div class="image" id="dark">
+    <img id="babyFeet" src="../../imagens/projetos/birthPlan2/babyFeet.png">
+    <img id="pregnant" src="../../imagens/projetos/birthPlan2/pregnant.png">
+  </div>
+  <div class="descricao" id="light">
+    <h2>Description</h2>
+    <p> birthPlan is software designed to support the nursing team in referring pregnant women to maternity services. It will be used by the smartH hospital coalition to manage the assignment of delivery assistance to specialist doctors and their respective teams.</p>
+  
+    <h2>How does it work?</h2>
+    <p>It receives 3 input files with information:</p>
+    <ol>
+      <li>Doctors;</li>
+      <li>Assistance schedule;</li>
+      <li>Assistance requests.</li>
+    </ol>
+    <p>Generates 3 output files:</p>
+    <ol>
+      <li>Updated list of doctors;</li>
+      <li>Updated assistance schedule.</li>
+    </ol>
+  </div>
+  <div class="image" id="light">
+    <img id="code1" src="../../imagens/projetos/birthPlan2/code1.png">
+    <img id="code2" src="../../imagens/projetos/birthPlan2/code2.png">
+  </div>
+  <div class="comoExec" id="dark">
+    <h1> How to run the program?</h1>
+    <p>The program should be run in the terminal as follows:</p>
+    <div class="terminal">
+      <p>[guimbreon@ThreatForge]:/home$ <a>python3 inputFile1.txt inputFile2.txt inputFile3.txt</a></p> 
+    </div>
+    <h2> What is each inputFile.py?</h2>
+    <ul>
+      <li>inputFile1.py: File with the list of doctors;</li>
+      <li>inputFile2.py: File with the assistance schedule;</li>
+      <li>inputFile3.py: File with the list of assistance requests.</li>
+    </ul>
+  </div>
+  <div class="image" id="dark">
+    <img id="brackets" src="../../imagens/projetos/birthPlan2/brackets.png">
+  </div>
+  <div class="module" id="light">
+    <h1>The software consists of the following modules:</h1>
+    <ul>
+      <li>constants.py: Defines the necessary constants</li>
+      <li>dateTime.py: Contains functions to handle date and time formats and operations.</li>
+      <li>infoFromFiles.py: Provides functions to read information from files.</li>
+      <li>planning.py: Contains functions to perform scheduling and updating of data structures.</li>
+      <li>infoToFiles.py: Offers functions to write information to files.</li>
+      <li>refresh.py: Main program that uses the previous modules to execute the birthPlan application.</li>
+    </ul>
+  </div>
+  <footer>
+    <div id="footerEsq">
+      <p><a href="../../footer/aboutme.html">About me</a></p>
+      <p>© Projects by Guilherme Soares</p>
+    </div>
+    <div id="footerDir">
+      <p><a href="https://www.linkedin.com/in/guilhermesoares26/">LinkedIn</a></p>      
+      <p>Lisbon, Portugal</p>      
+    </div>
+  </footer>
+</body>
+</html>

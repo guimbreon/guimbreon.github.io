@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfolio</title>
+  <link rel="stylesheet" href="../styles/imports/projetosImport.css">
+  <script src="../script/projetosLoader.js"></script>
+  <script src="../script/projetos.js"></script>
+  <script src="../script/filtroProjetos.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../header/projetos.html">Projetos</a></li>
+      </ul>
+    </nav>
+    <div id = "idioma">
+      <a href = "../../index.html"><img  src = "../imagens/pt.png"></a>
+    </div>
+  </header>
+  <div class="inicio" id="dark">
+      <h1>Here are all my main projects!</h1>
+      <p>Just click "Read more" to read about my projects!</p>
+  </div>
+  <div class="image" id="dark">
+    <img id="programmer" src="../imagens/header/projeto/programmer.png">
+    <img id="programmer2" src="../imagens/header/projeto/programmer2.png">
+    <img id="programmer3" src="../imagens/header/projeto/programmer3.png">
+  </div>
+  <div class="content" id="light">
+    <h2>Latest Projects</h2>
+    <div id="filtros" class="filters">
+    </div>
+    <div class="container" id="here">
+      <!--
+      <div class="post">
+        <div class="post-image">
+          <img src="Project1/project1.jpeg" alt="Project 1">
+        </div>
+        <div class="post-content">
+          <h2>birthPlan</h2>
+          <p>Description of the birthPlan project.</p>
+          <a href="Project1/project1.html">Read more</a>
+        </div>
+      </div>-->
+    </div>
+  </div>
+  <footer>
+    <div id="footerEsq">
+      <p><a href="../footer/aboutme.html">About me</a></p>
+      <p>© Projects by Guilherme Soares</p>
+    </div>
+    <div id="footerDir">
+      <p><a href="https://www.linkedin.com/in/guilhermesoares26/">LinkedIn</a></p>      
+      <p>Lisbon, Portugal</p>      
+    </div>
+  </footer>
+  <script>mostrarProjetos2(listaProjetos);</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfolio</title>
+  <link rel="stylesheet" href="styles/imports/indexImport.css">
+  <script src="script/projetosLoader.js"></script>
+  <script src="script/projetos.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="header/projetos.html">Projetos</a></li>
+      </ul>
+    </nav>
+    <div id = "idioma">
+      <a href = "../index.html"><img  src = "imagens/pt.png"></a>
+    </div>
+  </header>
+  <div class="content" id="dark">
+    <div class="ExpTec">
+      <div id="ExpTecText">
+        <h1>Technological Experience:</h1>
+        <p>Technologies I have experience with and have done some projects.</p>
+        <a href="https://github.com/guimbreon"><img id="ExpTecImg" src="imagens/index/github.png" alt="GitHub"></a>
+      </div>
+      <div class="borda" id="prog">
+        <h2>Programming:</h2>
+        <ol>
+          <li>Python;</li>
+          <li>Java;</li>
+          <li>HTML, CSS, and JavaScript.</li>
+        </ol>
+      </div>          
+      <div class="borda" id="bd">
+        <h2>Databases:</h2>
+        <ol>
+          <li>SQL;</li>
+          <li>Microsoft SQL Server.</li>
+        </ol>
+      </div>
+    </div>
+    <div class="image" id="dark">
+      <img id="java" src="imagens/index/java.png">
+      <img id="sql" src="imagens/index/sql.png">
+      <img id="python" src="imagens/index/python.png">
+    </div>
+    <!-- Add as many content elements as needed -->
+  </div>
+  <div class="content2" id="light">
+    <h2>Latest Projects</h2>
+    <p>The projects displayed here rotate when the page is refreshed!</p>
+    <div class="container" id="here">
+      <!--
+      <div class="post">
+        <div class="post-image">
+          <img src="Project1/project1.jpeg" alt="Project 1">
+        </div>
+        <div class="post-content">
+          <h2>birthPlan</h2>
+          <p>Description of the birthPlan project.</p>
+          <a href="Project1/project1.html">Read more</a>
+        </div>
+      </div>-->
+    </div>
+  </div>
+  <footer>
+    <div id="footerEsq">
+      <p><a href="footer/aboutme.html">About me</a></p>
+      <p>© Projects by Guilherme Soares</p>
+    </div>
+    <div id="footerDir">
+      <p><a href="https://www.linkedin.com/in/guilhermesoares26/">LinkedIn</a></p>      
+      <p>Lisbon, Portugal</p>      
+    </div>
+  </footer>
+  <script>mostrarProjetos(listaProjetos);</script>
+</body>
+</html>
