@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfolio</title>
+  <link rel="stylesheet" href="../../styles/imports/projetos/birthPlanImport.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../header/projetos.html">Projects</a></li>
+      </ul>
+    </nav>
+    <div id="idioma">
+      <a href="../../ing/index.html"><img src="../../imagens/uk.png"></a>
+    </div>
+  </header>
+  
+  <div class="inicio" id="dark">
+    <div id="base">
+      <h1>safeLevadas</h1>
+      <p>The safeLevadas project aims to create a Python application to find the fastest routes between two points in Madeira's levadas network, aiding in hiker rescue operations.</p>
+    </div>
+    <div id="tecUsadas">
+      <h2>Technologies Used</h2>
+      <ol>
+        <li>Python</li>
+      </ol>
+    </div>
+    <div id="data">
+      <h2>Project Timeline:</h2>
+      <p>Start: 2023</p>
+      <p>End: 2024</p>
+    </div>
+    <div id="encontrar">
+      <h2>Where can you</h2>
+      <h2>find the project?</h2>
+      <a href="https://github.com/guimbreon/safeLevadas"><img id="ondeEnc" src="../../imagens/projetos/birthPlan2/github.png" alt="GitHub"></a>
+    </div>
+  </div>
+  
+  <div class="image" id="dark">
+    <img id="babyFeet" src="../../imagens/projetos/birthPlan2/babyFeet.png">
+    <img id="pregnant" src="../../imagens/projetos/birthPlan2/pregnant.png">
+  </div>
+  
+  <div class="descricao" id="light">
+    <h2>Description</h2>
+    <p>safeLevadas is software designed to support rescue teams in determining the fastest route between two geolocated points in Madeira's levadas network. This system is essential for assisting in the quick response to distress calls from lost or endangered hikers.</p>
+    
+    <h2>Features</h2>
+    <p>The program accepts two input files:</p>
+    <ol>
+      <li>Levada network: <code>inputFile1.txt</code></li>
+      <li>Station pairs to calculate routes: <code>inputFile2.txt</code></li>
+    </ol>
+    <p>It generates one output file:</p>
+    <ol>
+      <li>Calculated route results: <code>outputFile.txt</code></li>
+    </ol>
+  </div>
+  
+  <div class="image" id="light">
+    <img id="code1" src="../../imagens/projetos/birthPlan2/code1.png">
+    <img id="code2" src="../../imagens/projetos/birthPlan2/code2.png">
+  </div>
+  
+  <div class="comoExec" id="dark">
+    <h1>How to run the program?</h1>
+    <p>The program should be executed in the terminal as follows:</p>
+    <div class="terminal">
+      <p>[guimbreon@ThreatForge]:/home$ <a>python safeLevadas.py inputFile1.txt inputFile2.txt outputfile.txt</a></p> 
+    </div>
+    <h2>What are the input files?</h2>
+    <ul>
+      <li><code>inputFile1.txt</code>: File with the levada network.</li>
+      <li><code>inputFile2.txt</code>: File with station pairs for which the fastest routes are to be calculated.</li>
+    </ul>
+  </div>
+  
+  <div class="image" id="dark">
+    <img id="brackets" src="../../imagens/projetos/birthPlan2/brackets.png">
+  </div>
+  
+  <div class="module" id="light">
+    <h1>The software consists of the following modules:</h1>
+    <ul>
+      <li><code>constants.py</code>: Defines necessary constants.</li>
+      <li><code>dateTime.py</code>: Contains functions for handling date and time formats and operations.</li>
+      <li><code>infoFromFiles.py</code>: Provides functions for reading information from files.</li>
+      <li><code>planning.py</code>: Contains functions for determining the fastest routes.</li>
+      <li><code>infoToFiles.py</code>: Offers functions for writing information to files.</li>
+      <li><code>safeLevadas.py</code>: Main program that uses the previous modules to execute the safeLevadas application.</li>
+    </ul>
+  </div>
+  
+  <footer>
+    <div id="footerEsq">
+      <p><a href="../../footer/aboutme.html">About me</a></p>
+      <p>© Projects by Guilherme Soares</p>
+    </div>
+    <div id="footerDir">
+      <p><a href="https://www.linkedin.com/in/guilhermesoares26/">LinkedIn</a></p>      
+      <p>Lisbon, Portugal</p>      
+    </div>
+  </footer>
+</body>
+</html>

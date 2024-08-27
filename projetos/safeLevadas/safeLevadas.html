@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GS Portfólio</title>
+  <link rel="stylesheet" href="../../styles/imports/projetos/birthPlanImport.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../header/projetos.html">Projetos</a></li>
+      </ul>
+    </nav>
+    <div id="idioma">
+      <a href="../../ing/index.html"><img src="../../imagens/uk.png"></a>
+    </div>
+  </header>
+  
+  <div class="inicio" id="dark">
+    <div id="base">
+      <h1>safeLevadas</h1>
+      <p>O projeto safeLevadas visa criar uma aplicação em Python para encontrar os percursos mais rápidos entre dois pontos na rede de levadas da Madeira, ajudando nas operações de resgate de caminhantes.</p>
+    </div>
+    <div id="tecUsadas">
+      <h2>Tecnologias Usadas</h2>
+      <ol>
+        <li>Python</li>
+      </ol>
+    </div>
+    <div id="data">
+      <h2>Quando foi feito:</h2>
+      <p>Início: 2023</p>
+      <p>Fim: 2024</p>
+    </div>
+    <div id="encontrar">
+      <h2>Onde posso</h2>
+      <h2>encontrar o projeto?</h2>
+      <a href="https://github.com/guimbreon/prog2_Proj2_LTI"><img id="ondeEnc" src="../../imagens/projetos/birthPlan2/github.png" alt="GitHub"></a>
+    </div>
+  </div>
+  
+  <div class="image" id="dark">
+    <img id="babyFeet" src="../../imagens/projetos/birthPlan2/babyFeet.png">
+    <img id="pregnant" src="../../imagens/projetos/birthPlan2/pregnant.png">
+  </div>
+  
+  <div class="descricao" id="light">
+    <h2>Descrição</h2>
+    <p>O safeLevadas é um software projetado para apoiar as equipas de resgate na determinação do percurso mais rápido entre dois pontos geolocalizados na rede de levadas da Madeira. Este sistema é essencial para auxiliar na rápida resposta a chamadas de socorro de caminhantes perdidos ou em perigo.</p>
+    
+    <h2>Funcionalidades</h2>
+    <p>O programa recebe dois ficheiros de entrada:</p>
+    <ol>
+      <li>Rede de levadas: <code>inputFile1.txt</code></li>
+      <li>Pares de estações para calcular os percursos: <code>inputFile2.txt</code></li>
+    </ol>
+    <p>Gera um ficheiro de saída:</p>
+    <ol>
+      <li>Resultados dos percursos calculados: <code>outputFile.txt</code></li>
+    </ol>
+  </div>
+  
+  <div class="image" id="light">
+    <img id="code1" src="../../imagens/projetos/birthPlan2/code1.png">
+    <img id="code2" src="../../imagens/projetos/birthPlan2/code2.png">
+  </div>
+  
+  <div class="comoExec" id="dark">
+    <h1>Como se executa o programa?</h1>
+    <p>O programa deve ser executado no terminal da seguinte forma:</p>
+    <div class="terminal">
+      <p>[guimbreon@ThreatForge]:/home$ <a>python safeLevadas.py inputFile1.txt inputFile2.txt outputfile.txt</a></p> 
+    </div>
+    <h2>O que são os ficheiros de entrada?</h2>
+    <ul>
+      <li><code>inputFile1.txt</code>: Ficheiro com a rede de levadas.</li>
+      <li><code>inputFile2.txt</code>: Ficheiro com pares de estações para os quais se deseja calcular os percursos mais rápidos.</li>
+    </ul>
+  </div>
+  
+  <div class="image" id="dark">
+    <img id="brackets" src="../../imagens/projetos/birthPlan2/brackets.png">
+  </div>
+  
+  <div class="module" id="light">
+    <h1>O software é composto pelos seguintes módulos:</h1>
+    <ul>
+      <li><code>constants.py</code>: Define as constantes necessárias.</li>
+      <li><code>dateTime.py</code>: Contém funções para lidar com formatos e operações com datas e tempos.</li>
+      <li><code>infoFromFiles.py</code>: Fornece funções para ler informações de ficheiros.</li>
+      <li><code>planning.py</code>: Contém funções para realizar a determinação dos percursos mais rápidos.</li>
+      <li><code>infoToFiles.py</code>: Oferece funções para escrever informações em ficheiros.</li>
+      <li><code>safeLevadas.py</code>: Programa principal que utiliza os módulos anteriores para realizar a aplicação safeLevadas.</li>
+    </ul>
+  </div>
+  
+  <footer>
+    <div id="footerEsq">
+      <p><a href="../../footer/aboutme.html">Sobre mim</a></p>
+      <p>© Projetos feitos por Guilherme Soares</p>
+    </div>
+    <div id="footerDir">
+      <p><a href="https://www.linkedin.com/in/guilhermesoares26/">Linkedin</a></p>      
+      <p>Lisboa, Portugal</p>      
+    </div>
+  </footer>
+</body>
+</html>
