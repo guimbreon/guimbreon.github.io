@@ -34,6 +34,7 @@ const listaProjetos = [
         img: "imagens/projetos/safeLevadas/safeLevadas.jpeg",
         id: ["Python"]
     },
+    {nome:"memento Gallery", link:"projetos/mementoGallery/mementoGallery.html", descricao: "Picture Gallery.", img:"imagens/projetos/mementoGallery/mementoGallery.png", id: ["Web"]},
     // {nome: "Cripter", link: "projetos/Cripter/Cripter.html", descricao: "Tool that helps people encrypt and decrypt data.", img: "imagens/projetos/Cripter/Cripter.jpeg"},
     // {nome: "PassSec", link: "projetos/PassSec/PassSec.html", descricao: "Tool to ensure your password is secure!", img: "imagens/projetos/PassSec/PassSec.jpeg"},
     // {nome: "IMDB Analyzer", link: "projetos/IMDB_Analyzer/IMDB_Analyzer.html", descricao: "The goal of the project is to make it possible for everyone with an IMDB account to analyze their data.", img: "projetos/IMDB_Analyzer/IMDB_Analyzer.jpeg"},
